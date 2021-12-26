@@ -52,8 +52,7 @@ print('Membuat Worksheet...')
 for x in range(len(list_header)):
     sheet.cell(row=1, column=x+1).value = list_header[x]
     # sheet.cell(row=1, column=x+1).font = Font(bold=True, color='040CFF')
-for jj in range(1, 3000):
-    sheet.cell(row=4, column=jj).value = jj
+
 abjad = ["A","B","C","D","E","F","G","H","I",
 "J","K","L","M","N","O","P","Q","R","S","T","U","V",
 "W","X","Y","Z",
